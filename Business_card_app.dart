@@ -3,20 +3,18 @@ import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-// the main function is the starting point for all our flutter apps.
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // @Override
+  
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
             child: Column(
-          //mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             CircleAvatar(
               radius: 60,
